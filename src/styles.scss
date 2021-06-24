@@ -1,0 +1,47 @@
+@import './styles/color.scss';
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+ html, body {
+   height: 100%;
+   font-family: sans-serif;
+ }
+
+ app-root, app-home {
+   display: block;
+   height: 100%;
+ }
+
+ app-events, app-about {
+  display: block;
+ 	padding-left: 6%;
+ 	//height: 100%;
+  height: 100vh;
+ 	width: 100%;
+  min-height: 100%;
+  overflow: auto;
+ }
+ app-events {
+  background-color: $violet;
+ }
+ app-about {
+  background-color: $yellow;
+ }
+
+
+
+@font-face {
+	font-family: bold_font;
+	src: url('http://135.125.238.126:1717/fonts/VenusianUltraNF.otf');
+}
+
+
+@font-face {
+	font-family: text_font;
+	src: url('http://135.125.238.126:1717/fonts/Gza-Seminegra.otf');
+}
